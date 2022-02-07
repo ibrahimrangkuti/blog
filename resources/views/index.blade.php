@@ -29,6 +29,7 @@
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">Posts</a></li>
                         <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="{{ route('user.login') }}">Login</a></li>
                     </ul>
                 </div>
             </div>
@@ -41,6 +42,7 @@
                         <div class="site-heading">
                             <h1>Clean Blog</h1>
                             <span class="subheading">Tempat Berkumpulnya Pelajar Indonesia</span>
+                            <a href="" class="btn btn-primary mt-5">Create Your Post!</a>
                         </div>
                     </div>
                 </div>
@@ -65,7 +67,7 @@
                     <!-- Divider-->
                     <hr class="my-4" />
                     <!-- Pager-->
-                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
+                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">LAINNYA →</a></div>
                 </div>
             </div>
         </div>
